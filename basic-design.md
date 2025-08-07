@@ -12,11 +12,8 @@ I will now describe the details of the template as follows:
 - No. : Display the step order number
 - 手順 : Mô tả chi tiết các bước cần thực hiện trong màn hình 
 
-Use English
-Must follow the exact format of the template.
 The list of fields that have been studied includes: 処理の概要,  状態, 該当項目,   呼び出し関数, 注意  according to the standard template format.
 Title the table section as **"機能操作"**
-Export to markdown file	
 
 1. Read and analyze the sample template.
 2. Memorize the structure and field definition rules.
@@ -41,11 +38,8 @@ I will now describe the details of the template as follows:
 - 呼び出し関数: For now, just enter a hyphen "-".
 - 注意: Notes or remarks. If there are none, enter a hyphen "-"
 
-Use English
-Must follow the exact format of the template.
 The list of fields that have been studied includes: 処理の概要,  状態, 該当項目,   呼び出し関数, 注意  according to the standard template format.
 Title the table section as **"画面出力処理"**
-Export to markdown file	
 
 1. Read and analyze the sample template.
 2. Memorize the structure and field definition rules.
@@ -70,11 +64,8 @@ I will now describe the details of the template as follows:
 - 入力チェック: Lists possible test cases for form validation. Example: Check required fields, Check the email exists, etc. If none, enter なし. Suggest additional 3-5 test case for actions.
 - 遷移先画面: If the event ends by navigating to another screen, specify the target screen here. If not, enter Same screen.
 
-Use English
-Must follow the exact format of the template.
 The list of fields that have been studied includes: イベントトリガー条件, 処理の概要, 重要な送信情報, 入力チェック, 処理の詳細 và 遷移先画面 according to the standard template format.
 Title the table section as **"イベント"**
-Export to markdown file	
 
 1. Read and analyze the sample template.
 2. Memorize the structure and field definition rules.
@@ -112,16 +103,19 @@ I will now describe the details of the template as follows:
 - 取得タイミング: For now, just enter ""-"".
 - 注意: Used for any notes or remarks related to the corresponding field.
 
-Use English
-Must follow the exact format of the template.
 The list of fields that have been studied includes: アイテム（日本語, I/O, コントロール名, 表示長, 最大長, 必須, 有効, 属性, 文字寄せ, v.v. according to the standard template format.
 Title the table section as **"項目"**
-Export to markdown file	
 
 1. Read and analyze the sample template.
 2. Memorize the structure and field definition rules.
 3. Review some example field rows to verify correct understanding.
 4. Ensure the model can recognize similar event patternsI will now describe the details of the template as follows:
+
+Additional Instructions:
+- Write all content in English
+- Follow each section's table format and headings strictly
+- Ensure numbering (No.) is consecutive and consistent
+- Avoid assumptions—only document what is observable or clearly defined
 
 Output Requirements:
 - Please export a single Markdown file named: Screen_Output_Process.md
