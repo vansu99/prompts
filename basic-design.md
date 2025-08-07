@@ -61,7 +61,7 @@ I will now describe the details of the template as follows:
 - イベントトリガー条件: Describes which button is pressed. Example: Press the キャンセル button.
 - 処理の概要: A brief description of the event that occurs.
 - 重要な送信情報: Lists the values send to the server.
-- 入力チェック: Lists possible test cases for form validation. Example: Check required fields, Check the email exists, etc. If none, enter なし. Suggest additional 3-5 test case for actions.
+- 入力チェック: Lists possible test cases for form validation. Example: Check required fields, Check the email exists, etc. If none, enter なし. Suggest additional 3-5 test case or more for actions.
 - 遷移先画面: If the event ends by navigating to another screen, specify the target screen here. If not, enter Same screen.
 
 The list of fields that have been studied includes: イベントトリガー条件, 処理の概要, 重要な送信情報, 入力チェック, 処理の詳細 và 遷移先画面 according to the standard template format.
@@ -120,6 +120,7 @@ Additional Instructions:
 Output Requirements:
 - Please export a single Markdown file named: Screen_Output_Process.md
 - The content should be structured as follows:
-  1. Provided Image : Embed the image reference at the top of the file.
-  2. The content of first section to last section
-  3. Each section must follow the exact table format and content rules above
+  1. Diplay the title of the screen
+  2. Provided Image : Embed the image reference at the top of the file.
+  3. The content of first section to last section
+  4. Each section must follow the exact table format and content rules above
