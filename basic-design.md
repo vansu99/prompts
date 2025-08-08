@@ -90,7 +90,7 @@ I will now describe the details of the template as follows:
 - No. : Display the step order number
 - ラベル名: Displays the English name of a field. If it cannot be translated into English, enter a hyphen ""-"".
 - アイテム（日本語）: Displays the Japanese name of a field.
-- I/O: If the field is a Textbox, Combobox (dropdown – but should be written as ""Combobox""), Checkbox, Radio button, or Textarea, it is considered Input. If it is a Label, then it is Output. Just write the abbreviation: use ""I"" for Input and ""O"" for Output.
+- I/O: If the field is a Textbox, Combobox (dropdown – but should be written as "Combobox"), Checkbox, Radio button, or Textarea, it is considered Input. If it is a Label, then it is Output. Just write the abbreviation: use ""I"" for Input and ""O"" for Output.
 - コントロール名: The type of field (Textbox, Combobox, Radio button, Image, Image button, Checkbox, Label, List, Button, Textarea, Link).
 - 表示長: The display length of the text on the UI. If the field type is Input, this must have a value. Otherwise, enter ""-"". The maximum is 191 characters.
 - 最大長: The maximum number of characters that can be entered into a textbox. If the field is not a textbox, enter ""-"". The maximum is 191 characters.
@@ -98,7 +98,7 @@ I will now describe the details of the template as follows:
 - 有効: If the field is disabled when the page first loads, enter ""O"". Otherwise, enter ""-"".
 - 属性: What kind of values can be input into the field. Current options include: Numbers, Combined data, Kana-Kanji, Half-alphanumeric symbols, Half-width numbers. If the field type (コントロール名) is Image or Label, enter ""-"". For Radio buttons, also enter ""-"".
 - 文字寄せ: Alignment of the field (Left, Center, Right).
-- 初期値: The initial value of the field. It can be either ""Get from DB"" or ""Blank"" depending on context. For a regular form, it's typically ""Blank"". For Edit mode, it's ""Get from DB"". For a Label, use ""Get from DB"". If it's a Button, enter ""-"".
+- 初期値: The initial value of the field. It can be either ""Get from DB"" or ""Blank"" depending on context. For a regular form, it's typically "Blank". For Edit mode, it's ""Get from DB"". For a Label, use ""Get from DB"". If it's a Button, enter ""-"".
 - 入力/出力フォーマット: The format of the input value. For example, if the input is a date, the format could be ""YYYY/MM/DD"". If the field is an Image or Label, enter ""-"".
 - 取得タイミング: For now, just enter ""-"".
 - 注意: Used for any notes or remarks related to the corresponding field.
@@ -109,7 +109,7 @@ Title the table section as **"項目"**
 1. Read and analyze the sample template.
 2. Memorize the structure and field definition rules.
 3. Review some example field rows to verify correct understanding.
-4. Ensure the model can recognize similar event patternsI will now describe the details of the template as follows:
+4. Ensure the model can recognize similar event patterns. I will now describe the details of the template as follows:
 
 Additional Instructions:
 - Write all content in English
@@ -120,7 +120,8 @@ Additional Instructions:
 Output Requirements:
 - Please export a single Markdown file named: Screen_Output_Process.md
 - The content should be structured as follows:
-  1. Diplay the title of the screen
-  2. Provided Image : Embed the image reference at the top of the file.
-  3. The content of first section to last section
-  4. Each section must follow the exact table format and content rules above
+  1. Display the title of the screen
+  2. Displays a brief but complete description of the business logic of the screen but does not describe the steps involved in the screen. Title the section as 概要
+  3. Provided Image: Embed the image reference at the top of the file.
+  4. The content of the first section to the last section
+  5. Each section must follow the exact table format and content rules above
