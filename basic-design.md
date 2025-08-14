@@ -33,7 +33,7 @@ A – Action:
 2. Nếu là Figma: đọc tên component để suy ra field/event. 
 3. Đề xuất MaxLength, DefaultValue, Display Format nếu không lấy được từ UI (đánh dấu assumed). 
 4. Đặt placeholder ảnh: 
-5. ![ScreenShot](./images/[screen_id].png) 
+5. ![ScreenShot](./channels4_profile.jpg) 
 6. Liệt kê Event Detail rõ ràng theo thứ tự: 
 o Validation (liệt kê các use-cases có thể xảy ra đối với nghiệp vụ của màn hình này)
 o Backend Logic 
