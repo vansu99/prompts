@@ -1,0 +1,3 @@
+- Bỏ API detail
+- Gộp nội dung của Simplified Table & Extended Table thành 1 bảng
+- 
