@@ -2,7 +2,7 @@ Prompt CREATE – Generate Basic Design (10 sections) + Evaluation & Next Action
 
 C – Context: 
 - Bạn nhận được URL hoặc file giao diện màn hình (Figma/HTML/URL). 
-- Nhiệm vụ là phân tích UI và tạo tài liệu Basic Design gồm 11 hạng mục chuẩn công ty để phục vụ Dev/QA/AI.
+- Nhiệm vụ là phân tích UI và tạo tài liệu Basic Design gồm 10 hạng mục chuẩn công ty để phục vụ Dev/QA/AI.
 - Mô tả chi tiết nghiệp vụ của màn hình: 
   + Màn hình này đăng ký thông tin công ty. 
   + Cho phép người dùng đăng ký thông tin công ty. 
@@ -14,17 +14,17 @@ R – Role:
 - Source: ảnh đính kèm
 
 E – Expectation: 
-• Xuất 01 file Markdown duy nhất, theo format chuẩn công ty với 11 hạng mục: 
+• Xuất 01 file Markdown duy nhất, theo format chuẩn công ty với 10 hạng mục: 
 1. Business Purpose 
 2. Target Role 
 3. Screen Layout (Figma URL + Screenshot placeholder) 
 4. User Flow / 操作フロー 
 5. Initial Load Behavior (On Page Load) 
-6. UI Field Spec (Simplified & Extended) 
+6. UI Field Spec (gộp nội dung của Simplified Table & Extended Table thành 1 bảng, bao gồm cả placeholder)
 7. Trigger & Event Mapping (chi tiết cả Frontend validation + Backend processing + Response handling) 
 8. Security Control / セキュリティ制御 
 9. Message / Error Handling (có MessageID, JP/EN, dùng chung được cho màn hình khác) 
-10. Other Notes / Additional Logic: Liệt kê những spec yêu cầu khác nằm ngoài 11 mục nhưng lưu ý cần cho nghiệp vụ trang này. 
+10. Other Notes / Additional Logic: Liệt kê những spec yêu cầu khác nằm ngoài 10 mục nhưng lưu ý cần cho nghiệp vụ trang này. 
 • Giữ nguyên thuật ngữ tiếng Nhật quan trọng như: メッセージ, エラー, セキュリティ制御. 
 • Nếu thiếu thông tin: ghi TBD và mô tả assumption. Tham khảo template đính kèm
 
@@ -33,7 +33,7 @@ A – Action:
 2. Nếu là Figma: đọc tên component để suy ra field/event. 
 3. Đề xuất MaxLength, DefaultValue, Display Format nếu không lấy được từ UI (đánh dấu assumed). 
 4. Đặt placeholder ảnh: 
-5. ![ScreenShot](./channels4_profile.jpg) 
+5. ![ScreenShot](./images/[screen_id].png) 
 6. Liệt kê Event Detail rõ ràng theo thứ tự: 
 o Validation (liệt kê các use-cases có thể xảy ra đối với nghiệp vụ của màn hình này)
 o Backend Logic 
